@@ -68,7 +68,7 @@ public class Calculator {
                 System.out.println("result: " + result);
                 System.out.println("continue? y/n. type 'c' if you want to start from the beginning");
                 continueProg = sc.next().charAt(0);
-                op1 = (int) result;
+                op1 = result;
             }
         };
 
